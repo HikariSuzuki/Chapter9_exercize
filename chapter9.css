@@ -16,7 +16,7 @@ main {
 }
 
 .step-box {
-  width: 300px;
+  width: 90%;
   margin-right: 30px;
   padding: 10px;
   position: relative;
@@ -66,16 +66,15 @@ footer {
   background-color: #aaa;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   main {
     width: 90%;
     display: block;
   }
 
-  .step-box{
+  .step-box {
     margin: 0 auto;
     margin-bottom: 20px;
-
   }
 
   .step-box:last-child {
